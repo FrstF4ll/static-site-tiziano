@@ -66,62 +66,15 @@
     gap: 60px;
 }
 
-/* Headline casing */
-.part1 {
-    width: 1920px;
-    height: 1008px;
-    top: 84.02px;
-    justify-content: space-between;
-    padding-top: 300px;
-    padding-right: 150px;
-    padding-bottom: 200px;
-    padding-left: 150px;
-}
-
-/* Titles - Text */
-.text-box {
-    display: flex;
-    width: 548px;
-    height: 457px;
-    gap: 56px;
-}
-
-.text {
-    display: flex;
-    width: 548px;
-    height: 330px;
+.logo {
+    width: 41.038719177246094;
+    height: 41.14875793457031;
+    top: 9.41px;
+    left: 7.22px;
 
 }
 
-/* Titles picture */
-
-.img {
-    display: flex;
-    width: 592px;
-    height: 508px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 4px;
-    gap: 4px;
-    border-radius: 200px;
-
-}
-
-/* See our work */
-
-.hint {
-    display: flex;
-    width: 197px;
-    height: 71px;
-    padding-top: 24px;
-    padding-right: 40px;
-    padding-bottom: 24px;
-    padding-left: 40px;
-    gap: 4px;
-}
-
-.hint-text {
-    display: flex;
-    width: 117px;
-    height: 23px;
+.zebb {
+    width: 69px;
+    height: 35px;
 }
