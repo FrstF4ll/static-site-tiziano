@@ -1,0 +1,127 @@
+/* Header box */
+
+.top {
+    width: 1920px;
+    height: 84px;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-right: 150px;
+    padding-bottom: 8px;
+    padding-left: 150px;
+}
+
+.nav-menu {
+    width: 702px;
+    height: 68px;
+    gap: 60px;
+    padding-bottom: 8px;
+}
+
+.menu {
+    display: flex;
+    width: 457px;
+    height: 28px;
+    gap: 60px;
+}
+
+/* Navigation icons */
+.home {
+    display: flex;
+    width: 52px;
+    height: 20px;
+    padding-bottom: 8px;
+    border-bottom: 4px
+}
+
+.about {
+    width: 57px;
+    height: 28px;
+    padding-bottom: 8px;
+}
+
+.services {
+    width: 79px;
+    height: 28px;
+    padding-bottom: 8px;
+}
+
+.work {
+    width: 89px;
+    height: 28px;
+    padding-bottom: 8px;
+}
+
+/* Contact */
+.contact {
+    display: flex;
+    width: 185px;
+    height: 68px;
+}
+
+/* Brand */
+.brand {
+    display: flex;
+    width: 127px, 87px;
+    height: 41px;
+    gap: 60px;
+}
+
+/* Headline casing */
+.part1 {
+    width: 1920px;
+    height: 1008px;
+    top: 84.02px;
+    justify-content: space-between;
+    padding-top: 300px;
+    padding-right: 150px;
+    padding-bottom: 200px;
+    padding-left: 150px;
+}
+
+/* Titles - Text */
+.text-box {
+    display: flex;
+    width: 548px;
+    height: 457px;
+    gap: 56px;
+}
+
+.text {
+    display: flex;
+    width: 548px;
+    height: 330px;
+
+}
+
+/* Titles picture */
+
+.img {
+    display: flex;
+    width: 592px;
+    height: 508px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    gap: 4px;
+    border-radius: 200px;
+
+}
+
+/* See our work */
+
+.hint {
+    display: flex;
+    width: 197px;
+    height: 71px;
+    padding-top: 24px;
+    padding-right: 40px;
+    padding-bottom: 24px;
+    padding-left: 40px;
+    gap: 4px;
+}
+
+.hint-text {
+    display: flex;
+    width: 117px;
+    height: 23px;
+}
