@@ -1,71 +1,83 @@
 /* General settings */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Merriweather;
     font-weight: 400;
-    font-style: Regular;
     font-size: 18px;
     line-height: 23px;
+    background: #FFEEF633;
+
+
 
 }
-
-@layer flexbox {
-    * :not(title) :not(html) :not(head) {
-        display: flex;
-    }
-}
-
 
 /* Header box */
 
 .top {
     height: 84px;
     padding: 8px 150px;
+    /* space left + right, no need for children to pad */
     font-size: 16px;
     text-transform: uppercase;
     line-height: 20px;
-    justify-content: space-between;
     white-space: nowrap;
     box-shadow: 0px 8px 20px 5px #00000014;
+
+    display: flex;
+    /* flexbox for navbar */
+    align-items: center;
+    /* vertical centering */
+    justify-content: space-between;
+    /* logo left, menu right */
 }
 
-.top div {
+.nav-menu {
+    display: flex;
+    /* make menu a row */
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    /* smaller spacing between text items */
+}
+
+.menu div {
     cursor: pointer;
     position: relative;
 }
 
-.top div span:hover {
-    text-decoration: underline;
-
-}
-
-
-.nav-menu {
-    width: 702px;
-    padding: 40px 24px;
-}
-
-.menu {
-    align-items: center;
-    width: 457px;
-    padding: 8px;
-    gap: 60px;
-
+.menu div span:hover {
+    border-bottom: 4px solid;
+    border-bottom-color: #FF5678
 }
 
 .blue-box {
+    display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #020E35;
+    color: white;
     width: 185px;
     height: 68px;
-    padding: 0 24px
+    padding: 0 24px;
 }
 
 .contact {
+    height: 20;
+    width: 105;
     font-family: Merriweather;
     font-weight: 700;
-    font-style: Bold;
-    color: white;
     text-transform: uppercase;
+
 
 }
 
@@ -74,21 +86,4 @@ body {
     justify-self: center;
     width: 127.87px;
     height: 41px;
-}
-
-/* Contact */
-
-
-.part1 {
-    height: 1008px;
-    justify-content: space-between;
-
-
-    top: 84.02px;
-    padding-top: 300px;
-    padding-right: 150px;
-    padding-bottom: 200px;
-    padding-left: 150px;
-    /* background-color: black; */
-
 }
