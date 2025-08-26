@@ -28,11 +28,20 @@ body {
     box-shadow: 0px 8px 20px 5px #00000014;
 }
 
+.top div {
+    cursor: pointer;
+    position: relative;
+}
+
+.top div span:hover {
+    text-decoration: underline;
+
+}
+
 
 .nav-menu {
     width: 702px;
     padding: 40px 24px;
-
 }
 
 .menu {
@@ -56,11 +65,13 @@ body {
     font-weight: 700;
     font-style: Bold;
     color: white;
+    text-transform: uppercase;
 
 }
 
 .logo {
     align-self: center;
+    justify-self: center;
     width: 127.87px;
     height: 41px;
 }
