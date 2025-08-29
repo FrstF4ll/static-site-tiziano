@@ -40,7 +40,7 @@ body {
     justify-self: center;
     width: 592px;
     height: 508px;
-    padding: 4px 0 4px 4px;
+    padding: 4px 4px 4px 4px;
     gap: 4px;
     border-radius: 200px;
     background-color: #FFEEF633;
@@ -61,6 +61,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 100px 150px;
+    gap: 150px;
 }
 
 h {
