@@ -84,6 +84,18 @@ h1 {
 
 }
 
+.hollow {
+    font-family: Merriweather;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: 0%;
+
+    font-size: 100px;
+    color: transparent;
+    -webkit-text-stroke: 2px #020E35
+}
 
 
 
