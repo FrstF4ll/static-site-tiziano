@@ -64,11 +64,24 @@ body {
     gap: 150px;
 }
 
-h {
+h1 {
+    display: flex;
+    flex-direction: column;
     font-size: 54px;
-    font-style: bold;
     line-height: 62px;
+
 }
+
+._pink {
+    display: inline;
+    /* keep it inline if you want */
+    background-size: 60%;
+    background-image: linear-gradient(to top, #FF5678 50%, transparent 50%);
+    background-repeat: no-repeat;
+}
+
+
+
 
 /* Nav box*/
 
