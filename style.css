@@ -19,7 +19,7 @@ body {
 
 .blue-box {
     display: flex;
-    width: 197px;
+    width: 185px;
     height: 71px;
     padding: 40px 24px;
     align-items: center;
@@ -169,3 +169,15 @@ h {
 }
 
 /* Powered-by Section */
+.bottom {
+    display: flex;
+    gap: 63px;
+    align-items: center;
+}
+
+.player {
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
