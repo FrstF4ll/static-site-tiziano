@@ -250,4 +250,5 @@ h1 {
     position: relative;
     z-index: -1;
     top: -550px;
+    left: -150px;
 }
