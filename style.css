@@ -247,10 +247,7 @@ h1 {
 }
 
 .circle {
-    position: absolute;
+    position: relative;
     z-index: -1;
-    width: 780;
-    height: 670;
-    padding: 4px;
-    border: 1000px;
+    top: -550px;
 }
