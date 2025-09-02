@@ -341,7 +341,8 @@ h1 {
 .testimonial {
     display: grid;
     gap: 16px;
-    grid-template-rows: 5fr 3fr 2fr 5fr 18fr 5fr 4fr 5fr;
+    grid-template-columns: 4fr 2fr 8fr 1fr 6fr 1fr 8fr 2fr 4fr;
+    grid-template-rows: 5fr 3fr 2fr 5fr 18fr 2fr 1fr 2fr;
 }
 
 .test_ttl {
@@ -369,4 +370,12 @@ h1 {
     border-radius: 150px;
     padding: 60px 40px;
     gap: 46px;
+}
+
+.select_review {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    grid-row: 7;
+    grid-column: 2 / span 7;
 }
