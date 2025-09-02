@@ -261,7 +261,8 @@ h1 {
 .team {
     display: grid;
     grid-template-columns: 1fr 519px 519px 519px 1fr;
-    grid-template-rows: 1fr 1fr 2fr 519px 1fr 519px 1fr;
+    grid-template-rows: 1fr 1fr 2fr 519px 51px 519px 1fr;
+    gap: 19px;
 
 }
 
