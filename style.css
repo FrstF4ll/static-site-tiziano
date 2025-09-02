@@ -186,7 +186,7 @@ h1 {
 }
 
 
-#brand {
+.highlight {
     display: inline-block;
     line-height: 1;
     color: white;
@@ -337,4 +337,37 @@ h1 {
 .team .white_box:nth-child(6) {
     grid-column: 4;
     grid-row: 6;
+}
+
+.prevwork {
+    display: grid;
+    grid-template-columns: 4fr 16fr 1fr 16fr 1fr 16fr 4fr;
+    grid-template-rows: 4fr 3fr 2fr 1fr 2fr 16fr 1fr 16fr 2fr 3fr 4fr;
+
+}
+
+.prevwork h1 {
+    grid-column-start: 3;
+    grid-column-end: span 4;
+    grid-row-start: 3;
+    display: inline-block;
+}
+
+.prevwork p {
+    display: flex;
+    padding: 4px;
+    justify-self: center;
+    justify-items: space-between;
+    align-self: center;
+    gap: 60px;
+    grid-column-start: 4;
+    grid-row-start: 5;
+}
+
+.prevwork .highlight {
+    display: inline-block;
+    line-height: normal;
+    color: white;
+    background-color: #FF5678;
+
 }
