@@ -371,3 +371,27 @@ h1 {
     background-color: #FF5678;
 
 }
+
+.testimonial {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr 12fr);
+    grid-template-rows: 5fr 3fr 2fr 5fr 18fr 5fr 4fr 5fr;
+}
+
+.testimonial h1 {
+    grid-row: 2;
+    grid-column: 6;
+
+    font-size: 54px;
+    line-height: 72px;
+}
+
+.testimonial p {
+    display: inline-block;
+    grid-row: 3;
+    grid-column: 5 / span 3;
+    justify-self: center;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+}
