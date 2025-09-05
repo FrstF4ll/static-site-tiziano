@@ -291,6 +291,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-items: space-between;
     gap: 24px;
     width: 235px;
     height: 36px;
@@ -319,49 +320,64 @@ h1 {
 /* Testimonial */
 .testimonial {
     display: grid;
-    gap: 16px;
-    grid-template-columns: 6fr 2fr 8fr 1fr 6fr 1fr 8fr 2fr 6fr;
-    grid-template-rows: 2fr 3fr 2fr 8fr 2fr 2fr 2fr;
+    justify-content: space-between;
+    height: 1280px;
+    width: 2236px;
+    grid-template-columns: 158px 150px 80px 545px 369px 545px 80px 150px 158px;
+    grid-template-rows: 100px 128px 100px 672px 100px 80px 100px;
+
+    img {
+        grid-row: 6
+    }
 }
 
-.test_ttl {
-    display: flex;
-    justify-self: center;
+.review {
+    display: grid;
+    justify-content: space-around;
     align-items: center;
+    text-align: center;
+    column-gap: 32px;
+    height: 672px;
+    width: 2236px;
+    grid-template-columns: repeat(5, 412px);
+    grid-template-rows: 60px 340px 46px 49px 60px;
+}
+
+.commentary {
+    display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding: 0 80px
+}
+
+.ttl {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     gap: 20px;
 }
 
-.testimonial h1 {
-    font-size: 54px;
-    line-height: 72px;
-}
-
-.testimonial p {
-    justify-self: center;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 36px;
-}
-
-.testimonial .white_box {
+.userinfo {
     display: flex;
-    border-radius: 150px;
-    padding: 60px 40px;
-    gap: 46px;
-}
-
-.select_review {
-    display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 6px;
 }
+
+.testimonial .white_box {}
+
+
+
+
 
 /* Contact us */
 
 .contact_grid {
     display: grid;
-    height: 1500px;
     text-transform: capitalize;
     grid-template-columns: 1fr 4fr 1fr 4fr 1fr;
     grid-template-rows: 1fr 1fr 2fr 1fr 1fr;
