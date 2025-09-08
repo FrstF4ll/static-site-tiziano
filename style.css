@@ -309,13 +309,31 @@ h1 {
 
 .prevwork {
     display: grid;
-    gap: 60px;
-    grid-template-columns: 150px 1620px 150px;
-    grid-template-rows: 72px 44px 1376px 203px;
-    height: 1300px;
+    grid-template-columns: 150px 438px 103px 536px 103px 438px 150px;
+    grid-template-rows: 100px 72px 44px 1378px 71px 100px;
+    row-gap: 60px;
 
+    h {
+        font-weight: 700;
+        font-size: 54px;
+        line-height: 72px;
+
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-content: space-between;
+        gap: 60px;
+    }
 }
 
+.work_preview {
+    display: grid;
+    grid-template-columns: 519px 518px 519px;
+    grid-template-rows: 396.5px 243.5px 120px 519px;
+    gap: 32px;
+}
 
 /* Testimonial */
 .testimonial {
