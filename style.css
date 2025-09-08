@@ -436,6 +436,7 @@ h1 {
     border: solid;
     border-width: 1px;
     min-height: 70px;
+    min-width: 656px;
 }
 
 .form {
@@ -447,5 +448,24 @@ h1 {
 .form p {
     display: flex;
     gap: 20px;
+    flex-direction: column;
+}
+
+
+.newsletters {
+    display: flex;
+    padding: 150px 125px;
+
+}
+
+.news_form {
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+}
+
+.news_form_2 {
+    display: flex;
+    gap: 40px;
     flex-direction: column;
 }
