@@ -469,3 +469,64 @@ h1 {
     gap: 40px;
     flex-direction: column;
 }
+
+footer {
+    display: grid;
+    column-gap: 150px;
+    grid-template-columns: 4fr 2fr 1fr 1fr 1fr;
+    grid-template-rows: 127px 269px 60px 82px;
+
+    h {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+.references,
+.credit_box {
+    display: flex;
+    flex-direction: column;
+    grid-row: 2;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 40px;
+
+}
+
+.references {
+    gap: 32px;
+    justify-content: space-around;
+
+}
+
+.credit_box {
+    gap: 17px;
+}
+
+footer .blue-box {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    align-content: space-between;
+    gap: 900px;
+    flex-direction: row;
+    grid-column: 1 / 5;
+    padding: 0 150px;
+    width: auto;
+
+    p {
+        display: flex;
+        flex-direction: row;
+    }
+}
