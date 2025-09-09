@@ -314,7 +314,7 @@ h1 {
     grid-template-rows: 100px 72px 44px 1378px 71px 100px;
     row-gap: 60px;
 
-    h {
+    p {
         font-weight: 700;
         font-size: 54px;
         line-height: 72px;
@@ -357,6 +357,7 @@ h1 {
     display: grid;
     grid-template-columns: 2fr 1fr 6fr 4fr 6fr 1fr 2fr;
     grid-template-rows: 1fr 1fr 1fr 6fr 1fr 1fr 1fr;
+
 
     img {
         grid-row: 6
