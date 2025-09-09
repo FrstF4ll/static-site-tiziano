@@ -539,3 +539,10 @@ footer .blue-box {
     grid-row: 1 / 2;
     grid-column: 1;
 }
+
+.policy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 60px;
+}
