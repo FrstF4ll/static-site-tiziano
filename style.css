@@ -368,9 +368,10 @@ h1 {
 
 .comments {
     display: grid;
-    grid-template-columns: repeat 1fr 1fr 4fr 1fr 1fr;
+    grid-template-columns: 4fr 4fr 2fr 4fr 4fr;
     grid-template-rows: 1fr 10fr 1fr;
     column-gap: 32px;
+    row-gap: 0;
     width: 115vw;
 }
 
@@ -385,7 +386,7 @@ h1 {
 
 
     /* dimension */
-    padding: 40px 60px;
+    padding: 40px;
     gap: 24px;
     border-radius: 150px;
     border-color: #949494;
@@ -394,9 +395,33 @@ h1 {
 
 }
 
-.white_box.magnifying {
-    transform: scaleX(1.1165) scaleY(1.2108);
-    box-sizing: border-box;
+
+
+.comm_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    height: 412px;
+    height: 555px;
+    opacity: 1;
+    padding: 60px 40px;
+    gap: 46px;
+    border-radius: 150px;
+    border-width: 1px;
+    border: 1px solid #B8B8B8;
+    grid-row: 2;
+
+
+}
+
+.comm_box.magnifying {
+    height: 672px;
+    width: 460px;
+    grid-row: span 3;
+
 }
 
 
@@ -415,7 +440,7 @@ h1 {
     display: grid;
     text-transform: capitalize;
     grid-template-columns: 1fr 4fr 1fr 4fr 1fr;
-    grid-template-rows: 1fr 1fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr 1fr;
 }
 
 .write_box {
@@ -484,6 +509,7 @@ footer {
     display: flex;
     flex-direction: column;
     grid-row: 2;
+
 }
 
 .socials {
@@ -497,6 +523,8 @@ footer {
 .references {
     gap: 32px;
     justify-content: space-around;
+    width: 21vw;
+
 
 }
 
